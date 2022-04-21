@@ -20,11 +20,11 @@ export class SobreComponent implements OnInit {
     this.activatedRoute.queryParams.subscribe((res) => console.log(res));
 
     /* redirecionando para outra pagina via Router */
-    setInterval(() => {
-      /* Passamos para dentro de navigate a rota para ele ir
+    /* setInterval(() => { */
+    /* Passamos para dentro de navigate a rota para ele ir
       e fazer esse redirecionamento*/
-      this.router.navigate(['404']);
+    /* this.router.navigate(['404']);
       this.router.navigateByUrl('404');
-    }, 4000);
+    }, 4000); */
   }
 }
